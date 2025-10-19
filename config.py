@@ -6,7 +6,7 @@
 
 # I got a lot of this stuff from https://github.com/BreadOnPenguins/dots/blob/master/.config/qutebrowser
 
-# NOTE: these are here to prevent subsequent extraneous error messages
+# NOTE: these are here to prevent subsequent extraneous error messages. the errors don't prevent anything from working.
 c = c
 config = config
 
@@ -129,7 +129,6 @@ config.bind('T', 'hint links tab')
 config.bind('tT', 'config-cycle tabs.position top left')
 config.bind('gJ', 'tab-move +')
 config.bind('gK', 'tab-move -')
-config.bind('gm', 'tab-move')
 
 # NOTE: dark mode setup
 c.colors.webpage.darkmode.enabled = True

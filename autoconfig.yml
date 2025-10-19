@@ -17,7 +17,7 @@ settings:
     - -c
     - normal {line}G{column0}l
   statusbar.show:
-    global: always
+    global: never
   tabs.position:
     global: left
   tabs.show:
